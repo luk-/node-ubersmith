@@ -1,7 +1,7 @@
-var Ubernode = require('ubersmith_node');
+var UbersmithAPI = require('ubersmith');
 
 
-var client = new Ubernode('user', 'pass', 'http://url-to-your-instance/api/2.0/');
+var client = new UbersmithAPI('user', 'pass', 'http://url-to-your-instance/api/2.0/');
 
 
 var api_calls = {};

@@ -1,15 +1,15 @@
-{ "name" : "ubernode"
+{ "name" : "ubersmith"
 , "description" : "Ubersmith API client wrapper"
 , "tags" : ["ubersmith", "api", "client"]
-, "version" : "0.0.1"
+, "version" : "0.1.0"
 , "author" : "Luke Arduini <luke.arduini@me.com> <luke@ubersmith.com>"
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/luke-a/ubernode"
+  , "url" : "git@github.com:st-luke/node-ubersmith.git"
   }
 , "engines" : ["node >= 0.4.12"]
 , "dependencies" : 
   { "request" : "2.2.5"
   }
-, "main" : "./lib/ubernode"
+, "main" : "./lib/ubersmith"
 }

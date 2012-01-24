@@ -1,4 +1,4 @@
-# Ubernode
+# Ubersmith
 ### [Ubersmith.com](http://www.ubersmith.com)
 ## A painless way to interact with the Ubermsith API asynchronously in your node app
 
@@ -6,14 +6,14 @@ With this API wrapper, you can send requests to your Ubersmith instance in your 
 
 ### Installation
 
-    npm install ubernode
+    npm install ubersmith
 
 
 ###Usage
 
 **First, create a variable with your instance details:**
 
-    var client = new Ubernode('user', 'password', 'url');
+    var client = new UberAPI('user', 'password', 'url');
 
 
 You can create as many of these as you need if you're working with multiple instances.
